@@ -87,7 +87,7 @@ def main() -> None:
             dp.goto(f"/app/#/t/{KID}/mic")
             dp.wait_for_selector("#sim")
             dp.click("#sim button")
-            dp.wait_for_function("() => document.getElementById('out').textContent.includes('Verdict')")
+            dp.locator("#out", has_text="Verdict").wait_for()
             dp.screenshot(path=OUT / "therapist-mic-test.png")
             b.close()
     finally:
