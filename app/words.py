@@ -97,7 +97,6 @@ WORD_IDS = {w["id"] for w in WORDS}
 # Original SVG stickers in app/static/img/stickers/ (B13). One new sticker per finished session.
 STICKERS = ["sun", "star", "flower", "fish", "leaf", "moon", "balloon", "boat", "butterfly", "kite", "drum", "mango"]
 
-# Praise lines (B12): never the same twice in a row; therapist recordings would take priority.
 PRAISE = [
     {"ta": "சூப்பர்!", "en": "Super!"},
     {"ta": "நல்ல க!", "en": "Good k!"},
