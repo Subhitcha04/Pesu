@@ -99,7 +99,12 @@ STICKERS = ["sun", "star", "flower", "fish", "leaf", "moon", "balloon", "boat", 
 
 # Praise lines (B12): never the same twice in a row; therapist recordings would take priority.
 PRAISE = [
-    {"ta": "சூப்பர்!", "en": "Super!"}, {"ta": "நல்ல க!", "en": "Good k!"}, {"ta": "கரெக்ட்!", "en": "Correct!"},
-    {"ta": "அருமை!", "en": "Wonderful!"}, {"ta": "சபாஷ்!", "en": "Well done!"}, {"ta": "வெரி குட்!", "en": "Very good!"},
-    {"ta": "செம்ம!", "en": "Awesome!"}, {"ta": "நல்லா சொன்ன!", "en": "You said it well!"},
+    {"ta": "சூப்பர்!", "en": "Super!"},
+    {"ta": "நல்ல க!", "en": "Good k!"},
+    {"ta": "கரெக்ட்!", "en": "Correct!"},
+    {"ta": "அருமை!", "en": "Wonderful!"},
+    {"ta": "சபாஷ்!", "en": "Well done!"},
+    {"ta": "வெரி குட்!", "en": "Very good!"},
+    {"ta": "செம்ம!", "en": "Awesome!"},
+    {"ta": "நல்லா சொன்ன!", "en": "You said it well!"},
 ]
