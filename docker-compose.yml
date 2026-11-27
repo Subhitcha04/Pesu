@@ -1,0 +1,22 @@
+services:
+  pesu:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # All optional. The app starts with no .env file and no API keys.
+      PESU_DEMO: ${PESU_DEMO:-1}                        # sample child + Judge Mode for reviewers; set 0 for real use
+      PESU_THERAPIST_PIN: ${PESU_THERAPIST_PIN:-1234}
+      PESU_TZ: ${PESU_TZ:-Asia/Kolkata}
+      PESU_NOISE_THRESHOLD: ${PESU_NOISE_THRESHOLD:-0.05}
+      PESU_MIN_CONF: ${PESU_MIN_CONF:-0.35}
+      PESU_AUDIO_RETENTION_DAYS: ${PESU_AUDIO_RETENTION_DAYS:-90}
+    volumes:
+      - pesu-data:/srv/data
+    read_only: true            # A13: read-only root filesystem; only the data volume and /tmp are writable
+    tmpfs:
+      - /tmp
+    restart: unless-stopped
+
+volumes:
+  pesu-data:

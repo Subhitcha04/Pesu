@@ -1,0 +1,129 @@
+word_id,alternatives,confidences,noise_rms,expected_reason,note
+kaakka,காக்கா,,0.0,correct,tamil correct
+kaakka,டாக்கா,,0.0,error_t,tamil ட substitution
+kaakka,தாக்கா,,0.0,error_t,tamil த substitution
+kaakka,kaakka,,0.0,correct,roman correct
+kaakka,taakka,,0.0,error_t,roman t
+kaakka,thaakka,,0.0,error_t,roman th
+kaakka,crow,,0.0,english,english word
+kaakka,காக்கை,,0.0,correct,accepted variant
+kaakka,kakka,,0.0,correct,accepted variant
+kaakka,kaka,,0.0,correct,accepted variant
+kaakka,காக்கா காக்கா,,0.0,correct,child repeats the word
+kaakka,டாக்கா காக்கா,,0.0,multi,self-correction: two different words
+kaakka,காக்கா சொல்லு,,0.0,multi,parent co-speech
+kaakka,,,0.0,silence,nothing heard
+kaakka,காக்கா,,0.2,noise,noisy room
+kaakka,காக்கா,0.2,0.0,low_conf,low confidence
+kaakka,காக்கா,0,0.0,correct,confidence 0 means not reported
+kaakka,பாப்பா,,0.0,unclear,unrelated word
+kaakka,பாப்பா|காக்கா|காக்கா,,0.0,correct,lower alternatives agree
+kaakka,பாப்பா|காக்கா|டாக்கா,,0.0,unclear,lower alternatives disagree
+kaakka,டாக்கா|காக்கா,,0.0,error_t,top wins over autocorrected lower
+kaakka,காக்கா!,,0.0,correct,punctuation stripped
+kai,கை,,0.0,correct,tamil correct
+kai,டை,,0.0,error_t,tamil ட substitution
+kai,தை,,0.0,error_t,tamil த substitution
+kai,kai,,0.0,correct,roman correct
+kai,tai,,0.0,error_t,roman t
+kai,thai,,0.0,error_t,roman th
+kai,hand,,0.0,english,english word
+kai,கய்,,0.0,correct,accepted variant
+kai,kay,,0.0,correct,accepted variant
+kai,கை கை,,0.0,correct,child repeats the word
+kai,டை கை,,0.0,multi,self-correction: two different words
+kai,கை சொல்லு,,0.0,multi,parent co-speech
+kai,,,0.0,silence,nothing heard
+kai,கை,,0.2,noise,noisy room
+kai,கை,0.2,0.0,low_conf,low confidence
+kai,கை,0,0.0,correct,confidence 0 means not reported
+kai,பாப்பா,,0.0,unclear,unrelated word
+kai,பாப்பா|கை|கை,,0.0,correct,lower alternatives agree
+kai,பாப்பா|கை|டை,,0.0,unclear,lower alternatives disagree
+kai,டை|கை,,0.0,error_t,top wins over autocorrected lower
+kai,கை!,,0.0,correct,punctuation stripped
+kozhi,கோழி,,0.0,correct,tamil correct
+kozhi,டோழி,,0.0,error_t,tamil ட substitution
+kozhi,தோழி,,0.0,error_t,tamil த substitution
+kozhi,kozhi,,0.0,correct,roman correct
+kozhi,tozhi,,0.0,error_t,roman t
+kozhi,thozhi,,0.0,error_t,roman th
+kozhi,hen,,0.0,english,english word
+kozhi,கோலி,,0.0,correct,accepted variant
+kozhi,koli,,0.0,correct,accepted variant
+kozhi,kolli,,0.0,correct,accepted variant
+kozhi,கோழி கோழி,,0.0,correct,child repeats the word
+kozhi,டோழி கோழி,,0.0,multi,self-correction: two different words
+kozhi,கோழி சொல்லு,,0.0,multi,parent co-speech
+kozhi,,,0.0,silence,nothing heard
+kozhi,கோழி,,0.2,noise,noisy room
+kozhi,கோழி,0.2,0.0,low_conf,low confidence
+kozhi,கோழி,0,0.0,correct,confidence 0 means not reported
+kozhi,பாப்பா,,0.0,unclear,unrelated word
+kozhi,பாப்பா|கோழி|கோழி,,0.0,correct,lower alternatives agree
+kozhi,பாப்பா|கோழி|டோழி,,0.0,unclear,lower alternatives disagree
+kozhi,டோழி|கோழி,,0.0,error_t,top wins over autocorrected lower
+kozhi,கோழி!,,0.0,correct,punctuation stripped
+kudai,குடை,,0.0,correct,tamil correct
+kudai,டுடை,,0.0,error_t,tamil ட substitution
+kudai,துடை,,0.0,error_t,tamil த substitution
+kudai,kudai,,0.0,correct,roman correct
+kudai,tudai,,0.0,error_t,roman t
+kudai,thudai,,0.0,error_t,roman th
+kudai,umbrella,,0.0,english,english word
+kudai,கொடை,,0.0,correct,accepted variant
+kudai,kuda,,0.0,correct,accepted variant
+kudai,குடை குடை,,0.0,correct,child repeats the word
+kudai,டுடை குடை,,0.0,multi,self-correction: two different words
+kudai,குடை சொல்லு,,0.0,multi,parent co-speech
+kudai,,,0.0,silence,nothing heard
+kudai,குடை,,0.2,noise,noisy room
+kudai,குடை,0.2,0.0,low_conf,low confidence
+kudai,குடை,0,0.0,correct,confidence 0 means not reported
+kudai,பாப்பா,,0.0,unclear,unrelated word
+kudai,பாப்பா|குடை|குடை,,0.0,correct,lower alternatives agree
+kudai,பாப்பா|குடை|டுடை,,0.0,unclear,lower alternatives disagree
+kudai,டுடை|குடை,,0.0,error_t,top wins over autocorrected lower
+kudai,குடை!,,0.0,correct,punctuation stripped
+kannu,கண்ணு,,0.0,correct,tamil correct
+kannu,டண்ணு,,0.0,error_t,tamil ட substitution
+kannu,தண்ணு,,0.0,error_t,tamil த substitution
+kannu,kannu,,0.0,correct,roman correct
+kannu,tannu,,0.0,error_t,roman t
+kannu,thannu,,0.0,error_t,roman th
+kannu,eye,,0.0,english,english word
+kannu,கண்,,0.0,correct,accepted variant
+kannu,kann,,0.0,correct,accepted variant
+kannu,கண்ணு கண்ணு,,0.0,correct,child repeats the word
+kannu,டண்ணு கண்ணு,,0.0,multi,self-correction: two different words
+kannu,கண்ணு சொல்லு,,0.0,multi,parent co-speech
+kannu,,,0.0,silence,nothing heard
+kannu,கண்ணு,,0.2,noise,noisy room
+kannu,கண்ணு,0.2,0.0,low_conf,low confidence
+kannu,கண்ணு,0,0.0,correct,confidence 0 means not reported
+kannu,பாப்பா,,0.0,unclear,unrelated word
+kannu,பாப்பா|கண்ணு|கண்ணு,,0.0,correct,lower alternatives agree
+kannu,பாப்பா|கண்ணு|டண்ணு,,0.0,unclear,lower alternatives disagree
+kannu,டண்ணு|கண்ணு,,0.0,error_t,top wins over autocorrected lower
+kannu,கண்ணு!,,0.0,correct,punctuation stripped
+kaal,கால்,,0.0,correct,tamil correct
+kaal,டால்,,0.0,error_t,tamil ட substitution
+kaal,தால்,,0.0,error_t,tamil த substitution
+kaal,kaal,,0.0,correct,roman correct
+kaal,taal,,0.0,error_t,roman t
+kaal,thaal,,0.0,error_t,roman th
+kaal,leg,,0.0,english,english word
+kaal,காலு,,0.0,correct,accepted variant
+kaal,kal,,0.0,correct,accepted variant
+kaal,கால் கால்,,0.0,correct,child repeats the word
+kaal,டால் கால்,,0.0,multi,self-correction: two different words
+kaal,கால் சொல்லு,,0.0,multi,parent co-speech
+kaal,,,0.0,silence,nothing heard
+kaal,கால்,,0.2,noise,noisy room
+kaal,கால்,0.2,0.0,low_conf,low confidence
+kaal,கால்,0,0.0,correct,confidence 0 means not reported
+kaal,பாப்பா,,0.0,unclear,unrelated word
+kaal,பாப்பா|கால்|கால்,,0.0,correct,lower alternatives agree
+kaal,பாப்பா|கால்|டால்,,0.0,unclear,lower alternatives disagree
+kaal,டால்|கால்,,0.0,error_t,top wins over autocorrected lower
+kaal,கால்!,,0.0,correct,punctuation stripped
