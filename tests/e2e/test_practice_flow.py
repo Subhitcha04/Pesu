@@ -21,7 +21,7 @@ def sim(page, kind):
     """Wait for the child's turn, then press a Judge Mode button."""
     page.wait_for_selector(".stage[data-phase=listen]", timeout=15000)
     page.click(f"[data-sim={kind}]")
-    page.wait_for_function("() => document.getElementById('stage')?.dataset.phase !== 'listen'", timeout=10000)
+    page.wait_for_selector(".stage:not([data-phase=listen])", timeout=10000)
 
 
 def attempts(base, child=KID):
@@ -44,7 +44,7 @@ def test_t_error_twice_then_next_picture(page):
     page.locator(".stage.tilt").wait_for(timeout=5000)  # B10: tilt + sparkle, never a shake
     sim(page, "t")
     page.locator("#cap", has_text="அடுத்த படம்").wait_for(timeout=10000)
-    page.wait_for_function(f"() => document.querySelector('#picbtn img')?.getAttribute('src') !== '{first}'", timeout=15000)
+    page.wait_for_selector(f'#picbtn img:not([src="{first}"])', timeout=15000)
     errs = [a for a in attempts(page.base)[:2] if a["verdict"] == "error_t"]
     assert len(errs) == 2
 
